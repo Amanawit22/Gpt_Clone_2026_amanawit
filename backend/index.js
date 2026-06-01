@@ -8,7 +8,7 @@ import { errorHandler } from "./src/middleware/error-handler.js";
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://amanawits-gpt-clone.netlify.app",
   }),
 );
 app.use(express.json());
